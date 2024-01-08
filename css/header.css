@@ -1,0 +1,91 @@
+header {
+  position: fixed;
+  width: 100%;
+}
+header .wrap {
+  height: 100px;
+  align-items: center;
+}
+header .wrap h1 {
+  
+}
+header .wrap h1 a {
+  font-size: 0;
+  display: block;
+  width: 188px;
+  height: 33px;
+  background-image: url(../img/hd_logo_w.png);
+}
+header .wrap ul.gnb {
+  
+}
+header .wrap ul.gnb li {
+  
+}
+header .wrap ul.gnb li a {
+  display: block;
+  line-height: 100px;
+  padding: 0 50px;
+  font-size: 18px;
+  color: white;
+}
+header .wrap .sublist {
+  
+  display: none;
+}
+header .wrap .sublist div {
+  
+}
+header .wrap .sublist div h2 {
+  
+}
+header .wrap .sublist div ul.useguide {
+  
+}
+header .wrap .sublist div ul.useguide li {
+  
+}
+header .wrap .sublist div ul.useguide li a {
+  
+}
+header .wrap span.lang {
+  
+}
+header .wrap span.lang a {
+  display: block;
+  color: white;
+}
+header .wrap span.lang a:nth-child(2){
+  display: none;
+}
+header .wrap span.lang a::before{
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url(../img/lang.png);
+  background-size: contain;
+  vertical-align: -2px;
+  margin-right: 7px;
+}
+header .wrap span.lang a::after{
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background-image: url(../img/lang_arrow.png);
+  background-size: contain;
+  vertical-align: 2px;
+  margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
